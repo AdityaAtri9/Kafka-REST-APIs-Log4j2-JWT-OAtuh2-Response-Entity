@@ -1,0 +1,39 @@
+2025-10-22T17:43:35.887+05:30  INFO 10328 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : Starting Log4jRestStreamsApplication using Java 21.0.7 with PID 10328 (C:\Practice\log4j-rest-streams\target\classes started by HP in C:\Practice\log4j-rest-streams)
+2025-10-22T17:43:35.889+05:30  INFO 10328 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T17:43:36.860+05:30  INFO 10328 --- [log4j-rest-streams] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-22T17:43:36.876+05:30  INFO 10328 --- [log4j-rest-streams] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-22T17:43:36.876+05:30  INFO 10328 --- [log4j-rest-streams] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-22T17:43:36.926+05:30  INFO 10328 --- [log4j-rest-streams] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-22T17:43:36.926+05:30  INFO 10328 --- [log4j-rest-streams] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 979 ms
+2025-10-22T17:43:37.398+05:30  INFO 10328 --- [log4j-rest-streams] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-22T17:43:37.410+05:30  INFO 10328 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : Started Log4jRestStreamsApplication in 2.043 seconds (process running for 2.475)
+2025-10-22T17:43:37.417+05:30  INFO 10328 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : Application started — log file should be created now!
+2025-10-22T17:43:52.867+05:30  INFO 10328 --- [log4j-rest-streams] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-22T17:43:52.867+05:30  INFO 10328 --- [log4j-rest-streams] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-22T17:43:52.867+05:30  INFO 10328 --- [log4j-rest-streams] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-22T17:43:52.933+05:30  INFO 10328 --- [log4j-rest-streams] [http-nio-8080-exec-2] c.t.l.controller.ProductController       : Fetching all products
+2025-10-22T17:43:52.942+05:30  INFO 10328 --- [log4j-rest-streams] [http-nio-8080-exec-2] c.t.learning.service.ProductService      : Fetching all products, total count: 4
+2025-10-22T17:50:02.925+05:30  INFO 19432 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : Starting Log4jRestStreamsApplication using Java 21.0.7 with PID 19432 (C:\Practice\log4j-rest-streams\target\classes started by HP in C:\Practice\log4j-rest-streams)
+2025-10-22T17:50:02.928+05:30  INFO 19432 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T17:50:03.931+05:30  INFO 19432 --- [log4j-rest-streams] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-22T17:50:03.948+05:30  INFO 19432 --- [log4j-rest-streams] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-22T17:50:03.948+05:30  INFO 19432 --- [log4j-rest-streams] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-22T17:50:04.002+05:30  INFO 19432 --- [log4j-rest-streams] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-22T17:50:04.002+05:30  INFO 19432 --- [log4j-rest-streams] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1020 ms
+2025-10-22T17:50:04.459+05:30  INFO 19432 --- [log4j-rest-streams] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-22T17:50:04.469+05:30  INFO 19432 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : Started Log4jRestStreamsApplication in 2.064 seconds (process running for 2.507)
+2025-10-22T17:50:04.477+05:30  INFO 19432 --- [log4j-rest-streams] [main] c.t.l.l.Log4jRestStreamsApplication      : Application started — log file should be created now!
+2025-10-22T17:50:17.852+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-22T17:50:17.852+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-22T17:50:17.854+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-22T17:50:17.914+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-2] c.t.l.controller.ProductController       : Fetching all products
+2025-10-22T17:50:17.922+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-2] c.t.learning.service.ProductService      : Fetching all products, total count: 4
+2025-10-22T17:50:19.184+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-3] c.t.l.controller.ProductController       : Calculating total inventory value
+2025-10-22T17:50:20.421+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-4] c.t.l.controller.ProductController       : Adding new product: Product(id=101, name=Laptop, price=1200.5)
+2025-10-22T17:50:21.592+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-5] c.t.l.controller.ProductController       : Fetching product by ID: p1
+2025-10-22T18:22:39.218+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-8] c.t.l.controller.ProductController       : Adding new product: Product(id=101, name=Laptop, price=1200.5)
+2025-10-22T18:23:10.877+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-9] c.t.l.controller.ProductController       : Fetching all products
+2025-10-22T18:23:10.877+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-9] c.t.learning.service.ProductService      : Fetching all products, total count: 4
+2025-10-22T18:23:43.827+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-10] c.t.l.controller.ProductController       : Fetching product by ID: p1
+2025-10-22T18:23:48.387+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-1] c.t.l.controller.ProductController       : Fetching product by ID: p2
+2025-10-22T18:24:15.460+05:30  INFO 19432 --- [log4j-rest-streams] [http-nio-8080-exec-2] c.t.l.controller.ProductController       : Calculating total inventory value

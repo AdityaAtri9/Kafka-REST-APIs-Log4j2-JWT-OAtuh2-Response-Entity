@@ -1,0 +1,17 @@
+[2025-10-16 17:32:19] [INFO ] App - Application starts.
+[2025-10-16 17:32:19] [WARN ] App - This a warning message!
+[2025-10-16 17:32:19] [FATAL] App - This is a fatal message
+[2025-10-16 17:32:19] [ERROR] App - This is a error message
+[2025-10-16 17:32:19] [INFO ] App - Application finished.
+[2025-10-16 18:07:14] [INFO ] App - Application starts.
+[2025-10-16 18:07:14] [DEBUG] App - This is debug
+[2025-10-16 18:07:14] [WARN ] App - This a warning message!
+[2025-10-16 18:07:14] [FATAL] App - This is a fatal message
+[2025-10-16 18:07:14] [ERROR] App - This is a error message
+[2025-10-16 18:07:14] [INFO ] App - Application finished.
+[2025-10-16 18:08:08] [INFO ] App - Application starts.
+[2025-10-16 18:08:08] [DEBUG] App - This is a debug message.
+[2025-10-16 18:08:08] [WARN ] App - This a warning message!
+[2025-10-16 18:08:08] [FATAL] App - This is a fatal message.
+[2025-10-16 18:08:08] [ERROR] App - This is a error message.
+[2025-10-16 18:08:08] [INFO ] App - Application finished.
