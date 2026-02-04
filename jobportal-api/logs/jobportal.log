@@ -1,1 +1,38 @@
-2025-11-27T12:00:59.086+05:30  WARN 5960 --- [Job Portal API] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5d11h21m1s575ms649µs700ns).
+2025-12-02T14:48:27.164+05:30  INFO 7472 --- [Job Portal API] [restartedMain] c.j.j.JobPortalApiApplication            : Starting JobPortalApiApplication using Java 21.0.7 with PID 7472 (C:\Practice\jobportal-api\target\classes started by HP in C:\Practice\jobportal-api)
+2025-12-02T14:48:27.178+05:30  INFO 7472 --- [Job Portal API] [restartedMain] c.j.j.JobPortalApiApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:48:27.300+05:30  INFO 7472 --- [Job Portal API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-02T14:48:27.301+05:30  INFO 7472 --- [Job Portal API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-02T14:48:29.754+05:30  INFO 7472 --- [Job Portal API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:48:29.914+05:30  INFO 7472 --- [Job Portal API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 3 JPA repository interfaces.
+2025-12-02T14:48:31.775+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:48:31.797+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-02T14:48:31.797+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-12-02T14:48:31.868+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-02T14:48:31.870+05:30  INFO 7472 --- [Job Portal API] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4567 ms
+2025-12-02T14:48:32.161+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:48:32.237+05:30  INFO 7472 --- [Job Portal API] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-12-02T14:48:32.279+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-02T14:48:32.827+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:48:32.884+05:30  INFO 7472 --- [Job Portal API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-02T14:48:33.386+05:30  INFO 7472 --- [Job Portal API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5641ae25
+2025-12-02T14:48:33.390+05:30  INFO 7472 --- [Job Portal API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-02T14:48:33.466+05:30  WARN 7472 --- [Job Portal API] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-02T14:48:33.467+05:30  WARN 7472 --- [Job Portal API] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-02T14:48:33.501+05:30  INFO 7472 --- [Job Portal API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:48:34.477+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:48:34.580+05:30  INFO 7472 --- [Job Portal API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:48:35.074+05:30  INFO 7472 --- [Job Portal API] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-12-02T14:48:35.201+05:30  WARN 7472 --- [Job Portal API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-02T14:48:35.396+05:30  INFO 7472 --- [Job Portal API] [restartedMain] c.j.jobportal_api.config.SecurityConfig  : Configuring security filter chain
+2025-12-02T14:48:36.039+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-02T14:48:36.078+05:30  INFO 7472 --- [Job Portal API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T14:48:36.090+05:30  INFO 7472 --- [Job Portal API] [restartedMain] c.j.j.JobPortalApiApplication            : Started JobPortalApiApplication in 9.843 seconds (process running for 10.681)
+2025-12-02T14:48:36.095+05:30  INFO 7472 --- [Job Portal API] [restartedMain] c.j.jobportal_api.DataInitializer        : Running DataInitializer
+2025-12-02T14:48:36.305+05:30  INFO 7472 --- [Job Portal API] [restartedMain] c.j.jobportal_api.DataInitializer        : Admin user already exists
