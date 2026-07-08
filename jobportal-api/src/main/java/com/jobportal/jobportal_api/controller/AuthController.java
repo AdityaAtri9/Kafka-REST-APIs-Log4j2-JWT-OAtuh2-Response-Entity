@@ -26,7 +26,7 @@ public class AuthController {
     public ResponseEntity<?> register(@RequestBody User user) {
         logger.info("Register API called for {}", user.getUsername());
         if (user.getUsername() == null || user.getEmail() == null || user.getPassword() == null) {
-            logger.warn("Register validation failed");
+            logger.error("Register validation failed");
             return ResponseEntity.badRequest().body("username, email and password are required");
         }
         return authService.registerLocal(user)
